@@ -57,7 +57,7 @@ const Skills = () => {
                     <img src={meter1} alt="img" />
                     <h5>React</h5>
                  </div>
-</Carousel>;
+</Carousel>
 
                  </div>
             </Col>
