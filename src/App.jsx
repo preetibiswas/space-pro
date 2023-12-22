@@ -4,6 +4,7 @@ import 'bootstrap/dist/css/bootstrap.min.css'
 import Banner from './Component/Banner'
 import Skills from './Component/Skills'
 import Project from './Component/Project'
+import Contact from './Component/Contact'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <Banner/>
       <Skills/>
       <Project/>
+      <Contact/>
     </div>
    
   )

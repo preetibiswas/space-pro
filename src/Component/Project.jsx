@@ -78,8 +78,9 @@ const Project = () => {
             </Tab.Container>
             </Col>
         </Row>
+        {/* <img src={colorShap2} alt="img" className="'background-image-right" /> */}
     </Container>
-    <img src={colorShap2} alt="img" className="'background-image-right" />
+   
   </section>;
 };
 
