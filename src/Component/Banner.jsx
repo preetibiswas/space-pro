@@ -4,6 +4,7 @@ import { ArrowRightCircle } from "react-bootstrap-icons";
 import HeaderImg from "../assets/img/header-img.svg";
 import { TypeAnimation } from "react-type-animation";
 import "animate.css";
+import TrackVisibility from 'react-on-screen';
 
 const ExampleComponent = () => {
   return (
@@ -34,7 +35,10 @@ const Banner = () => {
               Welcome to my Portfolio
             </span>
             <h1>
-              <ExampleComponent />{" "}
+            <TrackVisibility>
+            {({ isVisible }) => isVisible && <ExampleComponent />}
+        </TrackVisibility>
+              {/* <ExampleComponent />{" "} */}
             </h1>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt
