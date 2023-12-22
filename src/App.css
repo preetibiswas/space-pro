@@ -268,6 +268,16 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   margin-bottom: 20px;
   color: #fff;
 }
+@media screen and (max-width: 320px) {
+  .banner h1{
+    font-size: 33px;
+  }
+
+  .newsletter-bx{
+    padding: 85px 33px !important
+  }
+  
+}
 .banner p{
   color:#B8B8B8;
   font-size: 18px;
